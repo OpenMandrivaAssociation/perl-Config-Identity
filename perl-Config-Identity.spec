@@ -15,6 +15,7 @@ BuildRequires: perl(File::HomeDir)
 BuildRequires: perl(File::Spec)
 BuildRequires: perl(File::Which)
 BuildRequires: perl(IPC::Open3)
+BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::Most)
 BuildRequires: perl(Test::Warn)
 

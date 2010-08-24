@@ -16,6 +16,8 @@ BuildRequires: perl(File::Spec)
 BuildRequires: perl(File::Which)
 BuildRequires: perl(IPC::Open3)
 BuildRequires: perl(Test::Most)
+BuildRequires: perl(Test::Warn)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 

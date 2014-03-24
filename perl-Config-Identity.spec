@@ -1,9 +1,9 @@
 %define upstream_name    Config-Identity
-%define upstream_version 0.0016
+%define upstream_version 0.0018
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Load (and optionally decrypt via GnuPG) user/pass identity information
 License:	GPL+ or Artistic
@@ -61,4 +61,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 - adding missing buildrequires:
 - adding missing buildrequires:
 - import perl-Config-Identity
+
 

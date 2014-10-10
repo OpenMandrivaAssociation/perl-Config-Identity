@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Load (and optionally decrypt via GnuPG) user/pass identity information
 License:	GPL+ or Artistic

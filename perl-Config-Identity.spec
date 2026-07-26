@@ -1,15 +1,13 @@
 %define upstream_name    Config-Identity
-%define upstream_version 0.0019
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.0019
+Release:	2
 
 Summary:	Load (and optionally decrypt via GnuPG) user/pass identity information
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/dagolden/Config-Identity
-Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Config-Identity-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Config-Identity-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -35,7 +33,7 @@ For GitHub API access, an identity is a 'login'/'token' pair
 For PAUSE access, an identity is a 'user'/'password' pair
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
